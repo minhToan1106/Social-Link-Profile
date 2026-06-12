@@ -1,0 +1,85 @@
+body{
+    height:100vh;
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.text{
+    color:white;
+}
+
+img{
+    object-fit: cover;
+    display: block;
+    border-radius: 100px;
+    width:100px;
+    height: 100px;
+}
+
+.profile{
+    background-color: #1F1F1F;
+    height:auto;
+    width:25%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    
+
+}
+
+h3{
+    font-family: InterSemiBold;
+   
+
+}
+
+.location{
+    font-weight: 600;
+}
+
+p{
+    font-family: 'InterRegular';
+    color: #96AF32;
+    font-size: smaller;
+}
+
+a{
+    display: block;
+    width: 70%;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #333333;
+    border-radius: 10px;
+    color:white;
+    padding-top: 15px;
+    font-family: 'InterRegular';
+    font-size: small;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "InterBold";
+    src: url(Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: "InterRegular" ;
+    src: url(Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "InterSemiBold";
+    src: url(Inter-SemiBold.ttf);
+}
+
